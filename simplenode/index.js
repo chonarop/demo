@@ -5,7 +5,7 @@ app.get('/', function (req, res) {
   var msg = req.query.msg;
   console.log(msg);
   if (msg != undefined){
-    res.send(msg + " processed.");
+    res.send(msg + " processed. #1");
   } else {
     res.send('Hello World!');
   }
