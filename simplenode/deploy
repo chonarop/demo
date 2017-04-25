@@ -1,0 +1,10 @@
+-#!/bin/bash
+
+cd /home/ubuntu/dev/demo
+git pull
+cd simplenode
+npm install --production
+pm2 restart simplenode
+exit
+
+EOF
